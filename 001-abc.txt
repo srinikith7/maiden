@@ -1,0 +1,7 @@
+____________
+
+google
+
+select * from customers;
+
+--grant on
