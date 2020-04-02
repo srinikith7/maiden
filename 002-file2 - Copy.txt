@@ -1,4 +1,5 @@
 002-file
+<<<<<<< HEAD
 
 
 
@@ -6,3 +7,9 @@ line 2
 
 
 kya re
+=======
+kya re1
+
+kya re
+
+>>>>>>> 2066451... kya re
