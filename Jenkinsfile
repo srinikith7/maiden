@@ -9,6 +9,7 @@ pipeline {
         stage('Runnnn') {
             steps {
                 sh python3 test_file.py
+                bat 'python3 test_file.py'
                 }
             }
     }
