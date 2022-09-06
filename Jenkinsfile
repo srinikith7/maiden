@@ -6,7 +6,7 @@ pipeline {
             steps {
                 pip3 install pytest
                 pip install --upgrade pip
-                pip --version
+                
                 python3
                 
                 }
