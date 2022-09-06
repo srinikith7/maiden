@@ -1,21 +1,10 @@
 pipeline {
     agent any
     stages {
-        stage('version') {            
+        stage('build') {
             steps {
-                script {
-                pip3 install pytest
-                pip install --upgrade pip         
-                python3
-                    }
-                }
+                sh 'python --version'
             }
-        stage('Build') {
-            steps {
-                script {
-                python3 test_file.py
-                    }
-                }
-            }
+        }
     }
 }
