@@ -7,9 +7,7 @@ pipeline {
                   }
             }
         stage('Runnnn') {
-            steps {
-                
-                  }
+            
             }
     }
 }
