@@ -1,11 +1,9 @@
 pipeline {
     agent any
     stages {
-        stage('version') {
+        stage('BBuilddd') {
             steps {
-                script {
-                    sh pip install python3
-                }
+                python3 test_file.py
              }
          }
         
