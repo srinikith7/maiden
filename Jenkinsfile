@@ -3,7 +3,9 @@ pipeline {
     stages {
         stage('version') {
             steps {
-                sh pip install python3
+                script {
+                    sh pip install python3
+                }
              }
          }
         
