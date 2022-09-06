@@ -12,6 +12,4 @@ phases:
       - poetry install
   build:
     commands:
-      - echo Running tests
-      - pytest -s
-      - python test_file.py
+      - python3 test_file.py
