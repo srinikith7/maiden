@@ -4,10 +4,8 @@ pipeline {
         stage('version') {
             steps {
                 echo 'helloooo'
-                  }
-            }
-        stage('Runnnn') {
-            
-            }
+             }
+         }
+        
     }
 }
