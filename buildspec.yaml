@@ -14,8 +14,4 @@ phases:
     commands:
       - echo Running tests
       - pytest -s
-cache:
-  paths:
-    - '/root/venv/**/*'
-    - '/root/.cache/pip/**/*'
-    - '/root/.cache/pypoetry/virtualenvs/**/*'
+      - python test_file.py
