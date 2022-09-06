@@ -2,14 +2,18 @@ pipeline {
     agent any
     stages {
         stage('version') {
+            python: 3.8
             steps {
-                sh python3 --version
+                - pip3 install pytest
+                - pip install --upgrade pip
+                - pip --version
+                - python3
+                
                 }
             }
-        stage('Runnnn') {
+        stage('Build') {
             steps {
-                sh python3 test_file.py
-                bat 'python3 test_file.py'
+                - python3 test_file.py
                 }
             }
     }
