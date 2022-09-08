@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('BBuilddd') {
             steps {
-                sh 'python test_file.py'
+                sh 'python3 test_file.py'
              }
          }
         
