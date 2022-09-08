@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('BBuilddd') {
             steps {
-                echo 'catt'
+                sh 'python test_file.py'
              }
          }
         
